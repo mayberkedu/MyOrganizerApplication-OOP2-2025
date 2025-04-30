@@ -26,7 +26,7 @@ namespace MyOrganizerApplication
             int counter = 0;
             if (txtNote.Text == "")
             {
-                MessageBox.Show("You cannot save empty note.Please enter your note.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You cannot save empty note. Please enter your note.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 counter++;
             }
             if (counter != 1)
@@ -110,7 +110,7 @@ namespace MyOrganizerApplication
                 int secilen = dgv_list.SelectedCells[0].RowIndex;
                 listNotebook[secilen].Note = txtNote.Text;
                 Functions.SaveNotebook(listNotebook, path);
-                MessageBox.Show("Updated", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Note updated successful ", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 List();
             }
             catch (Exception ex)

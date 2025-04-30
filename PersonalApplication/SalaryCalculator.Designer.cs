@@ -96,6 +96,7 @@
             // 
             // cmbBox_otherLanguage
             // 
+            this.cmbBox_otherLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox_otherLanguage.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox_otherLanguage.FormattingEnabled = true;
             this.cmbBox_otherLanguage.Items.AddRange(new object[] {
@@ -214,6 +215,7 @@
             // 
             // cmbBox_experience
             // 
+            this.cmbBox_experience.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox_experience.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox_experience.FormattingEnabled = true;
             this.cmbBox_experience.Items.AddRange(new object[] {
@@ -228,9 +230,11 @@
             this.cmbBox_experience.Name = "cmbBox_experience";
             this.cmbBox_experience.Size = new System.Drawing.Size(365, 36);
             this.cmbBox_experience.TabIndex = 6;
+            this.cmbBox_experience.SelectedIndexChanged += new System.EventHandler(this.cmbBox_experience_SelectedIndexChanged);
             // 
             // cmbBox_city
             // 
+            this.cmbBox_city.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox_city.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox_city.FormattingEnabled = true;
             this.cmbBox_city.Items.AddRange(new object[] {
@@ -391,6 +395,7 @@
             // 
             // cmbBox18
             // 
+            this.cmbBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox18.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox18.FormattingEnabled = true;
             this.cmbBox18.Items.AddRange(new object[] {
@@ -423,6 +428,7 @@
             // 
             // cmbBox0
             // 
+            this.cmbBox0.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox0.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox0.FormattingEnabled = true;
             this.cmbBox0.Items.AddRange(new object[] {
@@ -455,6 +461,7 @@
             // 
             // cmbBox7
             // 
+            this.cmbBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox7.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox7.FormattingEnabled = true;
             this.cmbBox7.Items.AddRange(new object[] {
@@ -536,6 +543,7 @@
             // 
             // cmbBox_title
             // 
+            this.cmbBox_title.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBox_title.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbBox_title.FormattingEnabled = true;
             this.cmbBox_title.Items.AddRange(new object[] {

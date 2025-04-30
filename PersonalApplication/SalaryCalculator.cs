@@ -145,5 +145,10 @@ namespace MyOrganizerApplication
         {
 
         }
+
+        private void cmbBox_experience_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

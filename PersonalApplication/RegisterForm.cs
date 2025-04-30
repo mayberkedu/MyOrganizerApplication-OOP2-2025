@@ -113,7 +113,7 @@ namespace MyOrganizerApplication
 
         private void btn_kapat_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Really want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             
             if (result == DialogResult.Yes)

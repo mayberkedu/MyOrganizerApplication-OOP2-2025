@@ -155,7 +155,7 @@ namespace MyOrganizerApplication
                         TxtPassword.Text = "";
                         if (TxtAddress.Text.Contains("#"))
                             TxtAddress.Text = TxtAddress.Text.Replace("#", ",");
-                        MessageBox.Show("Update Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Update Successful", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {

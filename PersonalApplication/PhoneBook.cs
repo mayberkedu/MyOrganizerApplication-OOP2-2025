@@ -115,7 +115,7 @@ namespace MyOrganizerApplication
                             Phone numberAdd = new Phone(user.Username.ToString(), txtBox_name.Text, txtBox_surname.Text, txtBox_telno.Text, txtBox_adress.Text, txtBox_description.Text, txtBox_email.Text);
                             phoneList.Add(numberAdd);
                             Functions.SavePhoneBook(phoneList, path);
-                            MessageBox.Show("Registration Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Registration Successful", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             txtBox_name.Text = "";
                             txtBox_surname.Text = "";
                             txtBox_telno.Text = "";
@@ -156,7 +156,7 @@ namespace MyOrganizerApplication
                 phoneList[secilen].Description = txtBox_description.Text;
                 phoneList[secilen].Mail = txtBox_email.Text;
                 Functions.SavePhoneBook(phoneList, path);
-                MessageBox.Show("Update Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Updated successful", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 List();
             }
             catch (Exception ex)
@@ -172,7 +172,7 @@ namespace MyOrganizerApplication
                 int secilen = dataGridView1.SelectedCells[0].RowIndex;
                 phoneList.RemoveAt(secilen);
                 Functions.SavePhoneBook(phoneList, path);
-                MessageBox.Show("Person deleted!");
+                MessageBox.Show("Person deleted");
                 List();
             }
             catch (Exception ex)
