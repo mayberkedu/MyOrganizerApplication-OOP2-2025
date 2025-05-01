@@ -36,7 +36,7 @@ namespace MyOrganizerApplication
         }
         private void btnCikis_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Do you want to go backto main menu?", "Go Back Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            var result = MessageBox.Show("Do you want to go back to main menu?", "Go Back Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             // If the user clicks 'Yes', perform the action to go back
             if (result == DialogResult.Yes)
             {
@@ -148,7 +148,7 @@ namespace MyOrganizerApplication
                         OpenEmailClient(email, "Password Reset", "Your new password is: " + new_password);
 
                         //progressBar.Visible = false;
-                        MessageBox.Show("Email client opened successfully!");
+                        MessageBox.Show("Email client opened successfully");
                         progressBar.Value = 100;
                     }
                     deleteText();
@@ -222,6 +222,11 @@ namespace MyOrganizerApplication
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

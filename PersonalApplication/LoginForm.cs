@@ -49,7 +49,7 @@ namespace MyOrganizerApplication
                     user.RememberMe = rememberMe;
                     LoginedUser.getInstance().UserGetSet = user;
                     lblMesaj.BackColor = Color.Transparent;
-                    lblMesaj.Text = "Successful Login";
+                    lblMesaj.Text = "Login Successful";
                     lblMesaj.Visible = true;
                     if (rememberMe == true)
                     {
@@ -60,7 +60,7 @@ namespace MyOrganizerApplication
                 }
             }
             lblMesaj.BackColor = Color.Transparent;
-            lblMesaj.Text = "Unsuccessful Login";
+            lblMesaj.Text = "Login Unsuccessful";
             lblMesaj.Visible = true;
             txtName.Text = "";
             txtPassword.Text = "";
