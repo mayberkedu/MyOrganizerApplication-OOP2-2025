@@ -63,16 +63,6 @@ namespace OOP2_2_PreLab.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap add {
-            get {
-                object obj = ResourceManager.GetObject("add", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap addcontactLogo {
             get {
                 object obj = ResourceManager.GetObject("addcontactLogo", resourceCulture);
@@ -93,16 +83,6 @@ namespace OOP2_2_PreLab.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap adduser {
-            get {
-                object obj = ResourceManager.GetObject("adduser", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap administrationLogo {
             get {
                 object obj = ResourceManager.GetObject("administrationLogo", resourceCulture);
@@ -116,16 +96,6 @@ namespace OOP2_2_PreLab.Properties {
         internal static System.Drawing.Bitmap appLogov2 {
             get {
                 object obj = ResourceManager.GetObject("appLogov2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap backup {
-            get {
-                object obj = ResourceManager.GetObject("backup", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,16 +126,6 @@ namespace OOP2_2_PreLab.Properties {
         internal static System.Drawing.Bitmap clipboard {
             get {
                 object obj = ResourceManager.GetObject("clipboard", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap clipboardx {
-            get {
-                object obj = ResourceManager.GetObject("clipboardx", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,16 +196,6 @@ namespace OOP2_2_PreLab.Properties {
         internal static System.Drawing.Bitmap icons8_add_user_group_woman_man_16 {
             get {
                 object obj = ResourceManager.GetObject("icons8-add-user-group-woman-man-16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap list {
-            get {
-                object obj = ResourceManager.GetObject("list", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,16 +323,6 @@ namespace OOP2_2_PreLab.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap phonebook {
-            get {
-                object obj = ResourceManager.GetObject("phonebook", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap phonebookLogo {
             get {
                 object obj = ResourceManager.GetObject("phonebookLogo", resourceCulture);
@@ -396,16 +336,6 @@ namespace OOP2_2_PreLab.Properties {
         internal static System.Drawing.Bitmap ProfileLogo {
             get {
                 object obj = ResourceManager.GetObject("ProfileLogo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap reminder {
-            get {
-                object obj = ResourceManager.GetObject("reminder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,16 +406,6 @@ namespace OOP2_2_PreLab.Properties {
         internal static System.Drawing.Bitmap updatereminderLogo {
             get {
                 object obj = ResourceManager.GetObject("updatereminderLogo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap updateuser {
-            get {
-                object obj = ResourceManager.GetObject("updateuser", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
